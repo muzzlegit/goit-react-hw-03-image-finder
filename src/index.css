@@ -1,7 +1,8 @@
-@import-normalize; /* bring in normalize.css styles */
-
+@import '../node_modules/reset-css/reset.css';
+@import 'react-toastify/dist/ReactToastify.css';
 body {
-  margin: 0;
+  background-color: #3e4e55;
+
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
